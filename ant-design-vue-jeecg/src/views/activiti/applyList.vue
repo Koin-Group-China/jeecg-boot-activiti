@@ -274,12 +274,12 @@
         description: '我的申请',
         dictOptions:[],
         url: {
-          list: "/actBusiness/listData",
-          getProcessDataList: "/activiti_process/listData",
-          delByIds:'/actBusiness/delByIds',
+          list: "/workflow/business/listData",
+          getProcessDataList: "/workflow/process/listData",
+          delByIds:'/workflow/business/delByIds',
           getFirstNode:'/actProcessIns/getFirstNode',
-          applyBusiness:'/actBusiness/apply',
-          cancelApply:'/actBusiness/cancel',
+          applyBusiness:'/workflow/business/apply',
+          cancelApply:'/workflow/business/cancel',
         },
         // 查询条件
         queryParam: {

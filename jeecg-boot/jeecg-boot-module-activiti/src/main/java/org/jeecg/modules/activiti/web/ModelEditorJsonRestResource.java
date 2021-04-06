@@ -31,9 +31,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @Slf4j
-@RequestMapping("activiti/activitiService")
+@RequestMapping("/activiti/service")
 public class ModelEditorJsonRestResource implements ModelDataJsonConstants {
-  
 
   @Autowired
   private RepositoryService repositoryService;

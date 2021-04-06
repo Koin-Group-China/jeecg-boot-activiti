@@ -6,23 +6,23 @@ export const activitiApproveMixin = {
     return {
       url: {
         // 代办列表查询
-        todoList: '/actTask/todoList',
-        todoCounts: '/actTask/todoCounts',
+        todoList: '/workflow/task/todoList',
+        todoCounts: '/workflow/task/todoCounts',
         // 审批通过
-        pass: '/actTask/pass',
+        pass: '/workflow/task/pass',
         // 审批不通过
-        back: '/actTask/back',
+        back: '/workflow/task/back',
         // 审批打回 到某一个节点
-        backToTask:'/actTask/backToTask',
-        delegate:'/actTask/delegate',
+        backToTask:'/workflow/task/backToTask',
+        delegate:'/workflow/task/delegate',
         // 获取下一个节点 信息（审批人）
-        getNextNode:'/activiti_process/getNextNode',
+        getNextNode:'/workflow/process/getNextNode',
         // 获取节点
-        getNode:'/activiti_process/getNode/',
+        getNode:'/workflow/process/getNode/',
         //
-        getBackList:'/actTask/getBackList/',
-        passAll:'/actTask/passAll/',
-        backAll:'/actTask/backAll/',
+        getBackList:'/workflow/task/getBackList/',
+        passAll:'/workflow/task/passAll/',
+        backAll:'/workflow/task/backAll/',
       },
       // 查询参数
       param:{

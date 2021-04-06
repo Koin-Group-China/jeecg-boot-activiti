@@ -364,14 +364,14 @@
         },
         spryTypes:[],
         url: {
-          list: "/activiti_process/listData",
-          img: "/activiti/models/export",
-          updateStatus: "/activiti_process/updateStatus",
-          delByIds: "/activiti_process/delByIds",
-          convertToModel: "/activiti_process/convertToModel",
-          updateInfo: "/activiti_process/updateInfo",
-          getProcessNode: "/activiti_process/getProcessNode",
-          editNodeUser: "/activiti_process/editNodeUser",
+          list: "/workflow/process/listData",
+          img: "/workflow/model/export",
+          updateStatus: "/workflow/process/updateStatus",
+          delByIds: "/workflow/process/delByIds",
+          convertToModel: "/workflow/process/convertToModel",
+          updateInfo: "/workflow/process/updateInfo",
+          getProcessNode: "/workflow/process/getProcessNode",
+          editNodeUser: "/workflow/process/editNodeUser",
         },
         spry:{
           //选中的用户

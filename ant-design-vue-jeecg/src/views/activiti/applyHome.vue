@@ -59,9 +59,9 @@
         description: '所有',
         dictOptions:[],
         url: {
-          getProcessDataList: "/activiti_process/listData",
+          getProcessDataList: "/workflow/process/listData",
           getFirstNode:'/actProcessIns/getFirstNode',
-          applyBusiness:'/actBusiness/apply',
+          applyBusiness:'/workflow/business/apply',
         },
         // 查询条件
         queryParam: {

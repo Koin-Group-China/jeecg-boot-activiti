@@ -158,8 +158,8 @@ export default {
       total: 0, // 表数据总数
       deleteId: "",
       url:{
-        doneList:'/actTask/doneList',
-        deleteHistoricTask:'/actTask/deleteHistoric/'
+        doneList:'/workflow/task/doneList',
+        deleteHistoricTask:'/workflow/task/deleteHistoric/'
       },
       modalLsVisible: false,
       procInstId: '',

@@ -73,6 +73,8 @@ public class ShiroConfig {
         //activiti
         filterChainDefinitionMap.put("/system/sysFile/opendownload", "anon");
         filterChainDefinitionMap.put("/activiti/**", "anon");
+        filterChainDefinitionMap.put("/workflow/model/**", "anon");
+        filterChainDefinitionMap.put("/workflow/service/**", "anon");
         filterChainDefinitionMap.put("/diagram-viewer/**", "anon");
         filterChainDefinitionMap.put("/editor-app/**", "anon");
 

@@ -46,10 +46,10 @@ import java.util.stream.Collectors;
  */
 @Slf4j
 @RestController
-@RequestMapping("/actTask")
+@RequestMapping("/workflow/task")
 @Transactional
 @Api(tags = "流程")
-public class ActTaskController {
+public class ActivitiTaskController {
 
     @Autowired
     private TaskService taskService;

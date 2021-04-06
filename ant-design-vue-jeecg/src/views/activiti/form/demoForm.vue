@@ -60,9 +60,9 @@
     data () {
       return {
         url:{
-          getForm:'/actBusiness/getForm',
-          addApply:'/actBusiness/add',
-          editForm:'/actBusiness/editForm',
+          getForm:'/workflow/business/getForm',
+          addApply:'/workflow/business/add',
+          editForm:'/workflow/business/editForm',
         },
         description: '流程表单demo，按例开发表单。需在 activitiMixin.js 中加入写好的表单',
         // form

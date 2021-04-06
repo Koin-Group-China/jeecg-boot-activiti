@@ -38,7 +38,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/activiti/models")
+@RequestMapping("/workflow/model")
 @Slf4j
 public class ActivitiModelController {
     @Autowired
@@ -59,15 +59,14 @@ public class ActivitiModelController {
     @RequestMapping("/modelListData")
     @ResponseBody
     public Result modelListData( HttpServletRequest request){
-        log.info("-------------模型列表-------------");
         ModelQuery modelQuery = repositoryService.createModelQuery();
-        String keyWord = request.getParameter("keyWord");//搜索关键字
+        String keyWord = request.getParameter("keyWord");
         if (StrUtil.isNotBlank(keyWord)){
             modelQuery.modelNameLike("%"+keyWord+"%");
         }
         List<Model> models = modelQuery.orderByCreateTime().desc().list();
 
-        return Result.ok(models);
+        return Result.OK(models);
     }
 
     @RequestMapping("/create")

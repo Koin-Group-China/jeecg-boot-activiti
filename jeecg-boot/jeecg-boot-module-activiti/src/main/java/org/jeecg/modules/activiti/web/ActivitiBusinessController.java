@@ -37,11 +37,11 @@ import java.util.stream.Collectors;
  *@version 1.0
  */
 @RestController
-@RequestMapping("/actBusiness")
+@RequestMapping("/workflow/business")
 @Slf4j
 @Transactional
 @Api(tags="流程")
-public class ActBusinessController {
+public class ActivitiBusinessController {
     @Autowired
     ActBusinessServiceImpl actBusinessService;
     @Autowired

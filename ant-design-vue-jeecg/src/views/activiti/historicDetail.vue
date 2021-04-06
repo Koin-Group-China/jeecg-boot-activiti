@@ -116,8 +116,8 @@ export default {
   data() {
     return {
       url:{
-        historicFlow:'/actTask/historicFlow/',
-        getHighlightImg:`${window._CONFIG['domianURL']}/activiti/models/getHighlightImg/`
+        historicFlow:'/workflow/task/historicFlow/',
+        getHighlightImg:`${window._CONFIG['domianURL']}/workflow/model/getHighlightImg/`
       },
       type: 0,
       loading: false, // 表单加载状态

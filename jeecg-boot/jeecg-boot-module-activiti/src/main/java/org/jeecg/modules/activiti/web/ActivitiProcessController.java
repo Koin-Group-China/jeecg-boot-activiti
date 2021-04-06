@@ -40,15 +40,13 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/activiti_process")
+@RequestMapping("/workflow/process")
 @Slf4j
 @Transactional
 @Api(tags = "流程")
 public class ActivitiProcessController {
     @Autowired
     private RepositoryService repositoryService;
-    @Autowired
-    private ObjectMapper objectMapper;
     @Autowired
     private ActZprocessServiceImpl actZprocessService;
     @Autowired

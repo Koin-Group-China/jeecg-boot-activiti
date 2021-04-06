@@ -36,7 +36,7 @@ import java.io.InputStream;
  */
 @RestController
 @Slf4j
-@RequestMapping("activiti/activitiService")
+@RequestMapping("/activiti/service")
 public class ModelSaveRestResource implements ModelDataJsonConstants {
   
   @Autowired

@@ -207,10 +207,10 @@
           sm: { span: 16 },
         },
         url: {
-          list: "/activiti/models/modelListData",
-          delete: "/activiti/models/delete/",
-          deployment: "/activiti/models/deployment/",
-          create: "/activiti/models/create",
+          list: "/workflow/model/modelListData",
+          delete: "/workflow/model/delete/",
+          deployment: "/workflow/model/deployment/",
+          create: "/workflow/model/create",
           update: "/activiti/modeler.html?modelId=",
         },
       }

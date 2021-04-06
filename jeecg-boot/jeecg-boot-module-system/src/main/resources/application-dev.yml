@@ -133,7 +133,7 @@ spring:
         master:
           url: jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
           username: root
-          password: rootroot
+          password: mysql
           driver-class-name: com.mysql.cj.jdbc.Driver
           # 多数据源配置
           #multi-datasource1:
@@ -155,11 +155,11 @@ spring:
     password: ''
     port: 6379
 #mongodb
-  data:
-    mongodb:
-      host: 127.0.0.1
-      port: 27017
-      database: dev
+#  data:
+#    mongodb:
+#      host: 127.0.0.1
+#      port: 27017
+#      database: dev
   #      username:
   #      password:
 #mybatis plus 设置
